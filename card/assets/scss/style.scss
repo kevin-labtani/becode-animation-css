@@ -8,12 +8,14 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
   overflow: hidden;
+  background-color: slategray;
 }
 
 .container {
   width: 370px;
   background: url(../img/background.jpg) no-repeat left top;
   position: relative;
+  background-color: white;
 }
 
 header {
@@ -35,17 +37,41 @@ header {
 }
 
 article {
+  position: relative;
+  margin: 1rem;
+  padding-bottom: 1rem;
+
   .photo-id {
     background: $red;
     color: white;
     padding: 0.5rem 1rem;
-    margin-top: -20px;
+    position: absolute;
+    top: -60px;
+    left: -1rem;
   }
   h2 {
     font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
   }
 
   .subtitle {
     color: $red;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+  }
+
+  .main-text {
+    text-align: justify;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    li {
+      margin-left: 1rem;
+    }
   }
 }

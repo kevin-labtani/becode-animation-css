@@ -7,12 +7,14 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
   overflow: hidden;
+  background-color: slategray;
 }
 
 .container {
   width: 370px;
   background: url(../img/background.jpg) no-repeat left top;
   position: relative;
+  background-color: white;
 }
 
 header {
@@ -33,18 +35,46 @@ header .date {
   padding: 10px;
 }
 
+article {
+  position: relative;
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+
 article .photo-id {
   background: #ed493f;
   color: white;
   padding: 0.5rem 1rem;
-  margin-top: -20px;
+  position: absolute;
+  top: -60px;
+  left: -1rem;
 }
 
 article h2 {
   font-weight: 600;
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
 }
 
 article .subtitle {
   color: #ed493f;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+article .main-text {
+  text-align: justify;
+}
+
+article ul {
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+article ul li {
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
