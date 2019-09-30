@@ -1,1 +1,50 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  overflow: hidden;
+}
+
+.container {
+  width: 370px;
+  background: url(../img/background.jpg) no-repeat left top;
+  position: relative;
+}
+
+header {
+  height: 265px;
+}
+
+header .date {
+  color: white;
+  background: #ed493f;
+  position: absolute;
+  border-radius: 50%;
+  left: 280px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+article .photo-id {
+  background: #ed493f;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: -20px;
+}
+
+article h2 {
+  font-weight: 600;
+}
+
+article .subtitle {
+  color: #ed493f;
+}
+/*# sourceMappingURL=style.css.map */
