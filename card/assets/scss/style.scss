@@ -63,10 +63,15 @@ article {
 
   .main-text {
     text-align: justify;
+    margin: 1rem auto;
+    line-height: 1.5;
   }
+}
 
+footer {
   ul {
-    padding: 0;
+    padding-left: 0;
+    padding-bottom: 1rem;
     list-style: none;
     display: flex;
 

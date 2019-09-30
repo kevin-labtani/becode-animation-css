@@ -64,17 +64,20 @@ article .subtitle {
 
 article .main-text {
   text-align: justify;
+  margin: 1rem auto;
+  line-height: 1.5;
 }
 
-article ul {
-  padding: 0;
+footer ul {
+  padding-left: 0;
+  padding-bottom: 1rem;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-article ul li {
+footer ul li {
   margin-left: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
