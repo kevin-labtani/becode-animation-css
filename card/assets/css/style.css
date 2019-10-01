@@ -4,19 +4,19 @@
 }
 
 body {
+  background-color: grey;
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
-  background-color: grey;
 }
 
 .container {
-  width: 370px;
-  position: relative;
   background-color: white;
+  border: 1px solid grey;
   opacity: 1;
+  position: relative;
   -webkit-transition: all 1s;
   transition: all 1s;
-  border: 1px solid grey;
+  width: 370px;
 }
 
 .container:hover {
@@ -25,47 +25,47 @@ body {
 }
 
 .container:hover article {
-  -webkit-transform: translateY(-180px);
-          transform: translateY(-180px);
-  height: 240px;
   background-color: white;
+  height: 240px;
   margin: 0;
   padding: 0;
+  -webkit-transform: translateY(-180px);
+          transform: translateY(-180px);
 }
 
 .container:hover header {
-  opacity: 0.8;
   background-size: 105%;
+  opacity: 0.8;
 }
 
 header {
-  height: 265px;
-  opacity: 1;
   background: url(../img/background.jpg) no-repeat left top;
   background-size: 100%;
+  height: 265px;
+  opacity: 1;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
 
 header .date {
-  color: white;
   background: #ed493f;
-  position: absolute;
   border-radius: 50%;
+  color: white;
+  font-size: 1rem;
+  position: absolute;
   left: 280px;
   top: 20px;
-  width: 60px;
   height: 60px;
-  text-align: center;
-  font-size: 1rem;
   padding: 10px;
+  text-align: center;
+  width: 60px;
 }
 
 article {
-  position: relative;
-  padding-bottom: 1rem;
   height: 140px;
   overflow: hidden;
+  position: relative;
+  padding-bottom: 1rem;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -77,8 +77,8 @@ article .photo-id {
 }
 
 article h2 {
-  font-weight: 600;
   font-size: 1.7rem;
+  font-weight: 600;
   margin-bottom: 0.5rem;
   margin-left: 1rem;
 }
@@ -91,18 +91,18 @@ article .subtitle {
 }
 
 article .main-text {
-  text-align: justify;
-  margin: 1rem;
   line-height: 1.5;
+  margin: 1rem;
+  text-align: justify;
 }
 
 footer ul {
-  padding-left: 0;
-  padding-bottom: 1rem;
-  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 1rem;
 }
 
 footer ul li {
