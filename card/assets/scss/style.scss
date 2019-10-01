@@ -22,10 +22,12 @@ body {
     box-shadow: 0 0 10px black;
     article {
       background-color: white;
-      height: 240px;
       margin: 0;
       padding: 0;
-      transform: translateY(-180px);
+      transform: translateY(-120px);
+      .main-text {
+        color: black;
+      }
     }
 
     header {
@@ -59,7 +61,6 @@ header {
 
 article {
   height: 140px;
-  overflow: hidden;
   position: relative;
   padding-bottom: 1rem;
   transition: all 1s;
@@ -87,6 +88,8 @@ article {
     line-height: 1.5;
     margin: 1rem;
     text-align: justify;
+    color: transparent;
+    transition: color 1s;
   }
 }
 
