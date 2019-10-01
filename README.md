@@ -12,7 +12,11 @@ Le projet est réalisé sur base des [instructions données](https://github.com/
 
 ## Langages
 
-Projet réalisé entièrement en CSS
+Projet réalisé entièrement en SCSS
+
+## Dificultés
+
+J'éprouve une difficulté à bien faire "monter" le texte de l'article devant l'image
 
 ## Remerciements
 
