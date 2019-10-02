@@ -5,7 +5,7 @@ $red: #ed493f;
 }
 
 body {
-  background-color: grey;
+  background-color: lightgoldenrodyellow;
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
 }
@@ -19,12 +19,9 @@ body {
   width: 370px;
 
   &:hover {
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px grey;
     article {
-      background-color: white;
-      margin: 0;
-      padding: 0;
-      transform: translateY(-120px);
+      transform: translateY(-110px);
       .main-text {
         color: black;
       }
@@ -32,13 +29,13 @@ body {
 
     header {
       background-size: 105%;
-      opacity: 0.8;
+      opacity: 0.6;
     }
   }
 }
 
 header {
-  background: url(../img/background.jpg) no-repeat left top;
+  background: url(../img/background.jpg) no-repeat;
   background-size: 100%;
   height: 265px;
   opacity: 1;
@@ -63,18 +60,23 @@ article {
   height: 140px;
   position: relative;
   padding-bottom: 1rem;
-  transition: all 1s;
+  background-color: white;
+  transition: transform 1s ease-in-out;
 
   .photo-id {
     background: $red;
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
+    position: relative;
+    top: -28px;
   }
+
   h2 {
     font-size: 1.7rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
     margin-left: 1rem;
+    margin-top: 0.5rem;
   }
 
   .subtitle {
@@ -89,7 +91,7 @@ article {
     margin: 1rem;
     text-align: justify;
     color: transparent;
-    transition: color 1s;
+    transition: all 1s ease-out 0.4s;
   }
 }
 
