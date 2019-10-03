@@ -21,7 +21,7 @@ body {
   &:hover {
     box-shadow: 0 0 10px grey;
     article {
-      transform: translateY(-110px);
+      transform: translateY(-100px);
       .main-text {
         color: black;
         transition-delay: 0.5s;
@@ -41,20 +41,20 @@ header {
   height: 265px;
   opacity: 1;
   transition: all 1s;
+}
 
-  .date {
-    background: $red;
-    border-radius: 50%;
-    color: white;
-    font-size: 1rem;
-    position: absolute;
-    left: 280px;
-    top: 20px;
-    height: 60px;
-    padding: 10px;
-    text-align: center;
-    width: 60px;
-  }
+.date {
+  background: $red;
+  border-radius: 50%;
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  left: 280px;
+  top: 20px;
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+  width: 60px;
 }
 
 article {
