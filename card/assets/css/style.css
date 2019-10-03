@@ -31,6 +31,8 @@ body {
 
 .container:hover article .main-text {
   color: black;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
 }
 
 .container:hover header {
@@ -100,8 +102,8 @@ article .main-text {
   margin: 1rem;
   text-align: justify;
   color: transparent;
-  -webkit-transition: all 1s ease-out 0.4s;
-  transition: all 1s ease-out 0.4s;
+  -webkit-transition: all 0.3s ease-out 0.3s;
+  transition: all 0.3s ease-out 0.3s;
 }
 
 footer ul {

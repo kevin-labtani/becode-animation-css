@@ -24,6 +24,7 @@ body {
       transform: translateY(-110px);
       .main-text {
         color: black;
+        transition-delay: 0.5s;
       }
     }
 
@@ -91,7 +92,7 @@ article {
     margin: 1rem;
     text-align: justify;
     color: transparent;
-    transition: all 1s ease-out 0.4s;
+    transition: all 0.3s ease-out 0.3s;
   }
 }
 
